@@ -1,46 +1,44 @@
 /* @author augusto vieira do carmo*/
 
 import java.io.InputStream;
-import java.net.URI;
 import java.net.URL;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.net.http.HttpResponse.BodyHandlers;
 import java.util.List;
-import java.util.Map;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
         //conexao http com api de filmes
-        String url_filmes = "https://raw.githubusercontent.com/alura-cursos/imersao-java/api/TopMovies.json";
-        URI endereco = URI.create(url_filmes);
-        HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder(endereco).GET().build();
-        HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
-        String body = response.body();
-        //System.out.println(body);
-        //System.out.println("teste");
-        //extração dos atributos
-        var parser = new JsonParser();
-        List<Map<String, String>> listaDeFilmes = parser.parse(body);
+        //String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java/api/TopMovies.json";
+        // String url = "https://imdb-api.com/en/API/Top250Movies/k_0ojt0yvm";
 
-        //exibiçao
+        //url filmes IMDB
+        //String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java/api/TopMovies.json";
+        //ExtratorDeConteudo extrator = new ExtratorDeConteudoDoImdb();
+       
+        //url fotos Nasa
+        String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-20";
+        ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
+        
+        var http = new ClienteHttp();
+        String json = http.buscaDados(url);
+
+        //exibir e manipular
+        List<Conteudo> conteudos = extrator.extraiConteudos(json);
+       
         var geradora = new GeradoraDeFigurinhas();
-        for (Map<String, String> filme : listaDeFilmes) {
-            String urlImagem = filme.get("image");
-            String titulo = filme.get("title");
-            String nomeArquivo = titulo + ".png";
-            InputStream inputStream = new URL(urlImagem).openStream();
-        
-            geradora.cria(inputStream, nomeArquivo);
+
+        for (int i = 0; i < 5; i++) {
+
+            Conteudo conteudo = conteudos.get(i);
+
+            String nomeArquivo = "saida/" + conteudo.getTitulo() + ".png";
+
+            InputStream inputStream = new URL(conteudo.getUrlImagem()).openStream();
             
-            String y, z;
-            y = filme.get("imDbRating");
-            z = filme.get("year");
-            System.out.println("Filme: "+titulo+"\nRating: "+y+"\tAno lançamento: "+z+"\n");
+            geradora.cria(inputStream, nomeArquivo);
+
+            System.out.println(conteudo.getTitulo());
+            System.out.println();
         }
-        
     }
 }
