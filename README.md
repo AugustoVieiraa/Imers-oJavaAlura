@@ -1,5 +1,5 @@
 # Repositorio do projeto de Imersao Java da Alura realizado em 18/07/2022. #alura #imersaojava
-# A imersao foi dividida em 5 aulas. Em cada aula foram disponbilizados desafios. Abaixo seguem os links das aulas e os desafios propostos.
+A imersao foi dividida em 5 aulas. Em cada aula foram disponbilizados desafios. Abaixo seguem os links das aulas e os desafios propostos.
 
 # Link da Aula 01 - Consumindo uma API de filmes com Java.
 https://www.alura.com.br/imersao-java/aulas/aula01-consumindo-api-com-java?utm_source=ActiveCampaign&utm_medium=email&utm_content=%5BImers%C3%A3o+Java%5D+Aula+1+liberada++Vem+ver%21&utm_campaign=%5BImers%C3%A3o%5D+%28Java+1%C2%B0+ed+%29++Libera%C3%A7%C3%A3o+aula+01&vgo_ee=zsQrQKC88qmOk9MIWtHiwgA3SuMkJhmkGexv49sZvNU%3D
@@ -26,6 +26,15 @@ https://www.alura.com.br/imersao-java/aulas/aula02-stickers-com-whatsapp?utm_sou
 9. Fazer com que o texto da figurinha seja personalizado de acordo com as classificações do IMDB.
 10. Desafio supremo: usar alguma biblioteca de manipulação de imagens como OpenCV pra extrair imagem principal e contorná-la.
 
-# Aula 03 - Ligando as pontas, refatoração e orientação a objetos
+# Link da Aula 03 - Ligando as pontas, refatoração e orientação a objetos
+https://www.alura.com.br/imersao-java/aulas/aula03-orientacao-a-objetos?utm_source=ActiveCampaign&utm_medium=email&utm_content=%5BImers%C3%A3o+Java%5D+Liberado%21+Vem+ver+a+aula+03%2C++FIRSTNAME&utm_campaign=%5BImers%C3%A3o%5D+%28Java+1%C2%B0+ed+%29++Libera%C3%A7%C3%A3o+aula+03&vgo_ee=zsQrQKC88qmOk9MIWtHiwgA3SuMkJhmkGexv49sZvNU%3D
+
+# Desafios aula 3:
+1. Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16.
+2. Criar as suas próprias exceções e usá-las na classe que implementa o cliente HTTP.
+3. Usar recursos do Java 8 e posterior, como Streams e Lambdas, para mapear uma lista em uma outra.
+4. Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado.
+5. Desafio supremo: consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente.
+
 # Aula 04 - Criando nossa própria API com Spring
 # Aula 05 - Publicando nossa API no CloudCada aula foram 
