@@ -36,5 +36,16 @@ https://www.alura.com.br/imersao-java/aulas/aula03-orientacao-a-objetos?utm_sour
 4. Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado.
 5. Desafio supremo: consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente.
 
-# Aula 04 - Criando nossa própria API com Spring
+# Link da Aula 04 - Criando nossa própria API com Spring
+https://www.alura.com.br/imersao-java/aulas/aula04-apis-com-spring?utm_source=ActiveCampaign&utm_medium=email&utm_content=%5BImers%C3%A3o+Java%5D+Aula+04+dispon%C3%ADvel+%E2%9C%85&utm_campaign=%5BImers%C3%A3o%5D+%28Java+1%C2%B0+ed+%29++Libera%C3%A7%C3%A3o+aula+04&vgo_ee=zsQrQKC88qmOk9MIWtHiwgA3SuMkJhmkGexv49sZvNU%3D
+
+# Desafios aula 4:
+1. Finalizar o CRUD (Create, Read, Update e Delete) para que se possa atualizar e excluir uma linguagem cadastrada;
+2. Devolver a listagem ordenada pelo ranking;
+3. Criar na sua API um modelo de entidade com nomes diferentes de title e image e criar seu próprio extrator de informações personalizado OU, manter com o nome title e image e traduzir para que seja retornado como título e imagem através do uso de DTO (Data Transfer Object);
+4. Retornar o status 201 quando um recurso (linguagem, no nosso caso) for cadastrado através do POST;
+5. Desafio supremo: Aplicar modificações parciais no recurso através do método PATCH, por exemplo, modificando o número de votos ou de pessoas que utilizam cada linguagem de programação.
+
 # Aula 05 - Publicando nossa API no CloudCada aula foram 
+
+# Desafios aula 5:
