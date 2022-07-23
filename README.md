@@ -47,5 +47,10 @@ https://www.alura.com.br/imersao-java/aulas/aula04-apis-com-spring?utm_source=Ac
 5. Desafio supremo: Aplicar modificações parciais no recurso através do método PATCH, por exemplo, modificando o número de votos ou de pessoas que utilizam cada linguagem de programação.
 
 # Aula 05 - Publicando nossa API no CloudCada aula foram 
+https://www.alura.com.br/imersao-java/aulas/aula05-deploy-no-cloud?utm_source=ActiveCampaign&utm_medium=email&utm_content=%5BImers%C3%A3o+Java%5D+Todas+as+aulas+liberadas%21+E+al%C3%A9m+disso&utm_campaign=%5BImers%C3%A3o%5D+%28Java+1%C2%B0+ed+%29++Recados+importantes+%2B+aviso+que+ter%C3%A1+desconto+na+segunda&vgo_ee=zsQrQKC88qmOk9MIWtHiwgA3SuMkJhmkGexv49sZvNU%3D
 
 # Desafios aula 5:
+1. Compartilhe com seus amigos a sua URL do Heroku, para que eles possam consumir a sua API (com o padrão de atributos title e image) e gerar figurinhas do conteúdo que você utilizou (linguagens de programação, filmes, músicas);
+2. Colocar a aplicação no cloud da Oracle;
+3. Implementar algum mecanismo de votação na API, para que outros amigos votem nas linguagens preferidas para que se possa fazer um ranking;
+4. Desafio supremo: Evoluir o projeto das três primeiras aula para que ele gere um bundle de stickers, para que se possa fazer o download e já incluir vários stickers no WhatsApp; Usar os conhecimentos aprendidos em alguma imersão React da Alura e fazer uma aplicação front-end para gerar esse bundle, onde possa se passar a URL do conteúdo e já visualizar os stickers;
