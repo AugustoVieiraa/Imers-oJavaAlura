@@ -1,5 +1,7 @@
 # Repositorio do projeto de Imersao Java da Alura realizado em 18/07/2022. #alura #imersaojava
+-----
 A imersao foi dividida em 5 aulas. Em cada aula foram disponbilizados os links relacionados, desafios e materiais complementares dos assuntos de cada aula. Abaixo seguem os links e os desafios propostos.
+-----
 Link repositorio alura: https://github.com/alura-cursos/imersao-java/tree/aula5
 
 # Link da Aula 01 - Consumindo uma API de filmes com Java.
