@@ -1,4 +1,5 @@
 /* @author augusto vieira do carmo*/
+// email: augustocarmo@aluno.santoangelo.uri.br
 
 import java.io.InputStream;
 import java.net.URL;
